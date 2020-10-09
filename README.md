@@ -1,6 +1,10 @@
-# MusicList
+# Audio Player
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
+It is built using Angular. I used Angular Material for its user interface and RxJS to fetch some data in iTunes API.
+
+![alt text](https://github.com/foobearer/Audio-Player/blob/main/audio-player-preview.png?raw=true)
+
 
 ## Development server
 
