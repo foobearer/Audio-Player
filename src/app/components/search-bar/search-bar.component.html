@@ -1,0 +1,5 @@
+<mat-form-field appearance="outline">
+    <mat-label>Search a song</mat-label>
+    <input #str matInput placeholder="Search a song" (change)="passQueryString(str.value)">
+    <mat-icon matSuffix>search</mat-icon>
+</mat-form-field>

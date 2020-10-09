@@ -1,0 +1,56 @@
+mat-card {
+    width: 350px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #e1e1e1;
+    img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+    .card-details {
+        text-align: left;
+        margin: 20px;
+    }
+    mat-card-content {
+        margin-top: 10px;
+    }
+    mat-card-actions {
+        text-align: right;
+    }
+    p {
+        margin: 0px;
+    }
+    h4 {
+        font-weight: 700;
+    }
+    mat-card-header {
+        position: absolute;
+        height: 50px;
+        width: 92%;
+        top: 140px;
+        background-color: #0000004a;
+        padding-top: 25px;
+        border-radius: 50px;
+    }
+    .icon-actions {
+        text-align: right;
+        mat-icon {
+            color: #fff;
+            height: 60px;
+            width: 60px;
+            font-size: 32px;
+        }
+    }
+    .mat-flat-button.mat-primary,
+    .mat-raised-button.mat-primary,
+    .mat-fab.mat-primary,
+    .mat-mini-fab.mat-primary {
+        background-color: #000000de;
+    }
+    .mat-button.mat-primary,
+    .mat-icon-button.mat-primary,
+    .mat-stroked-button.mat-primary {
+        color: #000000de;
+    }
+}
