@@ -1,5 +1,7 @@
 # Audio Player
 
+To learn how to create an Angular Audio Player, you can visit this [link](https://medium.com/javascript-in-plain-english/create-your-own-audio-player-with-angular-f8766ca505ab).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
 It is built using Angular. I used Angular Material for the user interface and RxJS to fetch some data in iTunes API.
 
